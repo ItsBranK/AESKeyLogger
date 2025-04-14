@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{2f41238f-b1e2-423d-9360-37560768ea92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\MinHook">
+      <UniqueIdentifier>{51f76afd-3296-41b0-a617-c869b1739c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\MinHook\hde">
+      <UniqueIdentifier>{ecc63287-e457-4ca1-ad00-981a1fd6df3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Base64">
+      <UniqueIdentifier>{29957084-4e79-40c4-9a7a-4ec7d8bbff82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\FindPattern">
+      <UniqueIdentifier>{32456361-63df-4ab5-98fc-617cb7e2a4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AESKeyLogger">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Libraries\FunctionHook">
+      <UniqueIdentifier>{c5611c60-2df3-4845-9648-11541e848547}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\MinHook\hde\hde64.hpp">
+      <Filter>Libraries\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MinHook\hde\pstdint.hpp">
+      <Filter>Libraries\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MinHook\hde\table32.hpp">
+      <Filter>Libraries\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MinHook\hde\table64.hpp">
+      <Filter>Libraries\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MinHook\hde\hde32.hpp">
+      <Filter>Libraries\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MinHook\Buffer.hpp">
+      <Filter>Libraries\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MinHook\MinHook.hpp">
+      <Filter>Libraries\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MinHook\Trampoline.hpp">
+      <Filter>Libraries\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\Base64\Base64.hpp">
+      <Filter>Libraries\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FindPattern\FindPattern.hpp">
+      <Filter>Libraries\FindPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>AESKeyLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\FunctionHook\FunctionHook.hpp">
+      <Filter>Libraries\FunctionHook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>AESKeyLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>AESKeyLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MinHook\hde\hde64.cpp">
+      <Filter>Libraries\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MinHook\hde\hde32.cpp">
+      <Filter>Libraries\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MinHook\Buffer.cpp">
+      <Filter>Libraries\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MinHook\MinHook.cpp">
+      <Filter>Libraries\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MinHook\Trampoline.cpp">
+      <Filter>Libraries\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\Base64\Base64.cpp">
+      <Filter>Libraries\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FindPattern\FindPattern.cpp">
+      <Filter>Libraries\FindPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\FunctionHook\FunctionHook.cpp">
+      <Filter>Libraries\FunctionHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
