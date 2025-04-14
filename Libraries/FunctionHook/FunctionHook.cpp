@@ -37,9 +37,7 @@ namespace AESLogger
 			m_overrideFunction = overrideFunction;
 			m_hookedFunction = nullptr;
 
-			MinHook::MH_STATUS detourResult = MinHook::MH_CreateHook(GetTarget(), GetOverride(), reinterpret_cast<LPVOID*>(&m_hookedFunction));
-			std::cout << MinHook::MH_StatusToString(detourResult);
-			return (detourResult == MinHook::MH_STATUS::MH_OK);
+			return (MinHook::MH_CreateHook(GetTarget(), GetOverride(), reinterpret_cast<LPVOID*>(&m_hookedFunction)) == MinHook::MH_STATUS::MH_OK);
 		}
 
 		return false;
