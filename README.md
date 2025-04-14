@@ -1,7 +1,7 @@
 # AESKeyLogger
 Logs the raw AES keys used to decrypt files for Rocket League. This will not show unreleased AES keys, only ones Psyonix has released manually. So this method cannot be used to leak unreleased content if that's what your intentions are.
 
-![](https://imgur.com/a/HUERZ2i)
+![](https://i.imgur.com/jrmwt0n.png)
 
 ## Additional Info
 
