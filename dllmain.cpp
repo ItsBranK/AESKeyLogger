@@ -118,7 +118,7 @@ namespace AESLogger
         }
         else
         {
-            std::cout << "[AESKeyLogger] Failed to initialize MinHook!" << std::endl;
+            std::cout << "[AESKeyLogger] Failed to initialize MinHook, reason: " << MinHook::MH_StatusToString(initStatus) << std::endl;
         }
     }
 
